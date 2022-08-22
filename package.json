@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test-jasmine" : "jasmine",
+    "test-jasmine": "jasmine",
     "test-dev": "karma start",
     "test": "karma start --single-run"
   },
@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "bootstrap": "^3.4.1",
     "browserify": "^17.0.0",
     "jasmine": "^4.3.0",
     "karma": "^6.4.0",
