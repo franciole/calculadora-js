@@ -1,5 +1,5 @@
 // Karma configuration
-// Generated on Sat Aug 20 2022 23:31:59 GMT-0300 (Horário Padrão de Brasília)
+// Generated on Mon Jan 23 2017 11:44:36 GMT-0200 (BRST)
 
 module.exports = function(config) {
   config.set({
@@ -9,8 +9,8 @@ module.exports = function(config) {
 
 
     // frameworks to use
-    // available frameworks: https://www.npmjs.com/search?q=keywords:karma-adapter
-    frameworks: ['jasmine','browserify'],
+    // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
+    frameworks: ['jasmine', 'browserify'],
 
 
     // list of files / patterns to load in the browser
@@ -20,21 +20,21 @@ module.exports = function(config) {
     ],
 
 
-    // list of files / patterns to exclude
+    // list of files to exclude
     exclude: [
     ],
 
 
     // preprocess matching files before serving them to the browser
-    // available preprocessors: https://www.npmjs.com/search?q=keywords:karma-preprocessor
+    // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
-      'spec/**/*Spec.js': ['browserify']
+        'spec/**/*Spec.js': ['browserify']
     },
 
 
     // test results reporter to use
     // possible values: 'dots', 'progress'
-    // available reporters: https://www.npmjs.com/search?q=keywords:karma-reporter
+    // available reporters: https://npmjs.org/browse/keyword/karma-reporter
     reporters: ['progress'],
 
 
@@ -56,7 +56,7 @@ module.exports = function(config) {
 
 
     // start these browsers
-    // available browser launchers: https://www.npmjs.com/search?q=keywords:karma-launcher
+    // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
     browsers: ['Firefox'],
 
 
@@ -65,7 +65,7 @@ module.exports = function(config) {
     singleRun: false,
 
     // Concurrency level
-    // how many browser instances should be started simultaneously
+    // how many browser should be started simultaneous
     concurrency: Infinity
   })
 }
